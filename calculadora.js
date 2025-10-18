@@ -16,3 +16,10 @@ console.log("5 + 3 =", sumar(5, 3));
 console.log("5 - 3 =", restar(5, 3));
 console.log("5 * 3 =", multiplicar(5, 3));
 
+// Nueva funcionalidad en feature1
+function dividir(a, b) {
+  if (b === 0) {
+    return "Error: no se puede dividir entre 0";
+  }
+  return a / b;
+}
